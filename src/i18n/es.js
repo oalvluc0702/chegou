@@ -84,42 +84,43 @@ export default {
   },
 
   activity: {
-    opened: 'folder opened · chegou --open turns this off',
-    shared: '(shared)',
-    sharedText: '···· shared with phone',
-    downloaded: '(downloaded on phone)',
+    opened: 'carpeta abierta · chegou --open desactiva esto',
+    shared: '(compartido)',
+    sharedText: '···· compartido con el teléfono',
+    downloaded: '(descargado en el teléfono)',
   },
 
   share: {
-    notFound: 'file not found: {path}',
-    isFolder: "that's a folder: {path}",
-    empty: 'empty text',
-    emptyFolder: 'the folder {name} has no files',
-    folderLimit: 'the folder {name} has {count} files, only the first {max} were shared',
+    notFound: 'archivo no encontrado: {path}',
+    isFolder: 'eso es una carpeta: {path}',
+    empty: 'texto vacío',
+    emptyFolder: 'la carpeta {name} no tiene archivos',
+    folderLimit: 'la carpeta {name} tiene {count} archivos, solo se compartieron los primeros {max}',
   },
 
   upload: {
-    fallbackName: 'file',
-    noFreeName: "couldn't find a free name for {name}",
+    fallbackName: 'archivo',
+    noFreeName: 'no se pudo encontrar un nombre disponible para {name}',
   },
 
   update: {
-    available: 'new version available',
-    run: 'to update:',
+    available: 'nueva versión disponible',
+    run: 'para actualizar:',
   },
+
   open: {
-    label: 'open folder on 1st file:',
-    on: 'on',
-    off: 'off',
-    saved: '(saved for next time)',
-    notSaved: "(this time only, couldn't save)",
+    label: 'abrir carpeta al recibir el 1.er archivo:',
+    on: 'activado',
+    off: 'desactivado',
+    saved: '(guardado para la próxima vez)',
+    notSaved: '(solo esta vez, no se pudo guardar)',
   },
 
   goodbye: {
-    idle: 'stopped after being idle ({time})',
-    bye: 'see you ·',
-    nothing: 'no files received',
-    files: { one: '{n} file', other: '{n} files' },
-    star: 'enjoyed it? leave a',
+    idle: 'detenido por inactividad ({time})',
+    bye: 'hasta luego ·',
+    nothing: 'no se recibieron archivos',
+    files: { one: '{n} archivo', other: '{n} archivos' },
+    star: '¿te gustó? déjanos una',
   },
 }
